@@ -1,9 +1,9 @@
-import Header from './components/Header';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <div className="bg-[#3c3f45] h-screen p-2">
-      <Header />
+    <div className="bg-[#3c3f45] h-screen overflow-auto">
+      <Hero />
     </div>
   );
 };
