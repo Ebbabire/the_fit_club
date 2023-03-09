@@ -70,11 +70,11 @@ const Hero = () => {
           <img src={heroImage} alt="hero-img " />
         </div>
 
-        {/* absolute left-0 top-80 w-48  lg:top-40 lg:w-3/4 lg:right-72 md:right-72 sm:w-64 <img
+        <img
           src={heroImageBack}
           alt="hero-img-back"
           className="absolute top-20 right-96 w-2/4 z-10"
-        /> */}
+        />
       </div>
     </div>
   );
